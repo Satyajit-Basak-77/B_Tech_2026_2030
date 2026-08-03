@@ -1,0 +1,10 @@
+This is the homework for the class of 11.07.26
+
+/*
+     calc. area & perimeter of Cube.
+     calc. area & perimeter of Cuboid.
+     convert Hour to min.
+     convert min. to hour.
+     second to day
+     month to day
+*/

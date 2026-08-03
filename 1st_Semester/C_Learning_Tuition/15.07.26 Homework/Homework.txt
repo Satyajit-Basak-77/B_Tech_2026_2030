@@ -1,0 +1,12 @@
+/*
+   3) Leap year               Done
+   4) Buzz no.                Done
+   7) Age Calculation [(0 to 6 is Infant) (6 to 12 is Child) (12 to 18 is Teenager) (18 to 35 is Young age) (35 to 60 Middle age) (60 to 100 Old Age) (Greater than 100 is not applicable)]
+   8) Phone Bill
+   9) Gender Calculation  
+   10) Designation calc. 
+   11) Interest Calc.  
+   12) Grade Calc.   (Total avg of 4 sub) {(0 to 40 is D; 40 to 60 C; 60 to 80 is B; 80 to 90 is A; >90 is AA)}
+   16) Greatest among 3 no.  Half Done (More logics are Due)
+   17) Vowel or not
+*/ 

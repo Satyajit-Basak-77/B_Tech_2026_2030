@@ -1,0 +1,10 @@
+/* 
+    1) Positive Or NOT                  Done
+    2) Even or ODD                      Done
+    5) Autopolymorphic no.              Done
+    6) Electric Bill                    Done
+    13) ASCII check                     Done
+    14) Lower to upper & vice Versa     Done
+    15) Greater between 2 No.           Done
+    16) Greatest among 3 no.            Half Done
+*/

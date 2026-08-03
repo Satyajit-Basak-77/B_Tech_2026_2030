@@ -1,0 +1,6 @@
+/* 
+    1. Pallindrome number
+    2. Magic Number 
+    3. Harshad Number
+    4. Spy Number 
+*/
