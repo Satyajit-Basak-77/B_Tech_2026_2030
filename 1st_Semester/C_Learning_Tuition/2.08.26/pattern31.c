@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-    int i,j1;
+    int i,j;
     for(i=1; i<=4; i++)
     {
-        for(j1=1; j1<=i; j1++)
+        for(j=1; j<=i; j++)
         {
-            printf("%d", j1);
+            printf("%d", j);
         }
-        for(j1=i-1; j1>=1; j1--)
+        for(j=i-1; j>=1; j--)
         {
-            printf("%d", j1);
+            printf("%d", j);
         }
         printf("\n");
     }
