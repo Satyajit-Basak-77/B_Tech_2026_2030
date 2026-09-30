@@ -7,13 +7,13 @@ void main()
     int a[r][c], b[r][c], res[r][c];
         //input
         for(i=0; i<r; i++){
-        for(j=0; j<c; j++){
-            printf("Enter for (%d,%d) for 1st: ", i,j);
-            scanf("%d", &a[i][j]);
-            printf("Enter for (%d,%d) for 1st: ", i,j);
-            scanf("%d", &b[i][j]);
+            for(j=0; j<c; j++){
+                printf("Enter for (%d,%d) for 1st: ", i,j);
+                scanf("%d", &a[i][j]);
+                printf("Enter for (%d,%d) for 1st: ", i,j);
+                scanf("%d", &b[i][j]);
+            }
         }
-    }
         //subtraction
         for(i=0; i<r; i++){
             for(j=0; j<c; j++){

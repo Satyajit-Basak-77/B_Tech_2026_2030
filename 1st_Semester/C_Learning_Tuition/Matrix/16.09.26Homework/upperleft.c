@@ -4,7 +4,7 @@ void main()
     int i, j, k = 0;
     // input
     int a[3][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    //k=3-1;
+    k=3-1;
     // output
     for (i = 0; i < 3; i++)
     {
@@ -22,6 +22,6 @@ void main()
             printf("%d ", a[i][j]);
         }
         printf("\n");
-        k++;
+        k--;
     }
 }
