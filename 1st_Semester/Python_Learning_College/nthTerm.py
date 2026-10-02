@@ -1,0 +1,6 @@
+n1=int(input())
+d1=int(input())
+n2=int(input())
+d2=int(input())
+sum = (n1/d1)+(n2/d2)
+print(sum)

@@ -1,0 +1,2 @@
+s = "I am Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit Satyajit"
+print(s.replace("Satyajit", "Ankush", 100))
