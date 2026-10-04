@@ -14,3 +14,5 @@
     Create a structure of n number of customer if user press 1 specific users among will be deposited and if the user 
     press 0 the specific user amount to be withdrawn. If the deposited amount less than or equal to 1000 then user can't 
     withdraw the amount.
+9. Sort the student structure in descending order of their marks. 
+10. Sort the employee structure in descending order of their gross salary. 

@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 struct employee
 {
     int emp_id, bsalary;
@@ -7,7 +8,9 @@ struct employee
 };
 void main()
 {
-    int n;
+    int n, tid, tbsalary;
+    float tda, tta, thra, tgroslr, tpf, tnetslr;
+    char tname[50];
     printf("Enter your number of your employees: ");
     scanf("%d", &n);
     struct employee e[n];
@@ -32,6 +35,58 @@ void main()
     printf("---------------------------------------------------------------------------------------------------------------------\n");
     printf("ID\tName\tBasic_Salary\tDA\tTA\tHRA\tGross_Salary\tPF\tNet_Salary\n");
     printf("---------------------------------------------------------------------------------------------------------------------\n");
+    //sort
+    for(int i=0; i<n-1; i++){
+        for(int j=0; j<n-i-1; j++){
+            if(e[j].groslr<e[j+1].groslr){
+                //swaping
+                //emp_id
+                tid = e[j].emp_id;
+                e[j].emp_id = e[j+1].emp_id;
+                e[j+1].emp_id = tid;
+
+                //bsalary
+                tbsalary = e[j].bsalary;
+                e[j].bsalary = e[j+1].bsalary;
+                e[j+1].bsalary = tbsalary;
+
+                //da
+                tda = e[j].da;
+                e[j].da = e[j+1].da;
+                e[j+1].da = tda;
+
+                //ta
+                tta = e[j].ta;
+                e[j].ta = e[j+1].ta;
+                e[j+1].ta = tta;
+
+                //hra
+                thra = e[j].hra;
+                e[j].hra = e[j+1].hra;
+                e[j+1].hra = thra;
+
+                //tgroslr
+                tgroslr = e[j].groslr;
+                e[j].groslr = e[j+1].groslr;
+                e[j+1].groslr = tgroslr;
+
+                //pf
+                tpf = e[j].pf;
+                e[j].pf = e[j+1].pf;
+                e[j+1].pf = tpf;
+
+                //netslr
+                tnetslr = e[j].netslr;
+                e[j].netslr = e[j+1].netslr;
+                e[j+1].netslr = tnetslr;
+
+                //name
+                strcpy(tname, e[j].name);
+                strcpy(e[j].name, e[j+1].name);
+                strcpy(e[j+1].name, tname);
+            }
+        }
+    }
     for(int i=0; i<n; i++)
     {
         printf("%d\t%s\t%d\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\t%.2f\n", e[i].emp_id, e[i].name, e[i].bsalary, e[i].da, e[i].ta, e[i].hra, e[i].groslr, e[i].pf, e[i].netslr);
