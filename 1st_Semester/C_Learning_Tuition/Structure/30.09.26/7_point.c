@@ -1,6 +1,5 @@
 // 7
 #include <stdio.h>
-#include <conio.h>
 struct Point
 {
     int x, y;
@@ -21,27 +20,36 @@ void main()
     }
     // output
     printf("-----------------------------------------------\n");
-    printf("X\t\tY\n");
+    printf("X\tY\n");
     printf("-----------------------------------------------\n");
     for (i = 0; i < n; i++)
     {
-        printf("%d\t\t%d\n", p[i].x, p[i].y);
+        printf("%d\t%d\n", p[i].x, p[i].y);
     }
     // checking
     for (i = 0; i < n; i++)
     {
         if (p[i].x < 0 && p[i].y > 0)
         {
-            printf(" (%d,%d) is at Second Quadrant\n", p[i].x, p[i].y);
+            printf(" (%d,%d) is at 2nd Quadrant\n", p[i].x, p[i].y);
             f = 0;
         }
         else if (p[i].x > 0 && p[i].y < 0)
         {
-            printf(" (%d,%d) is at 4th Quadrant", p[i].x, p[i].y);
+            printf(" (%d,%d) is at 4th Quadrant\n", p[i].x, p[i].y);
+            f = 0;
+        }
+        else if (p[i].x < 0 && p[i].y < 0)
+        {
+            printf(" (%d,%d) is at 3rd Quadrant\n", p[i].x, p[i].y);
+            f = 0;
+        }
+        else
+        {
+            printf(" (%d,%d) is at 1st Quadrant\n", p[i].x, p[i].y);
             f = 0;
         }
     }
     if (f)
         printf("It's not present at no Quadrant");
-    getch();
 }

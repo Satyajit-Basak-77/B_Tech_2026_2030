@@ -6,7 +6,7 @@ struct box
 };
 void main()
 {
-    int i, n, maxvol;
+    int i, n, m, maxvol;
     printf("Enter the No. of Box = ");
     scanf("%d", &n);
     struct box b[n];
@@ -31,6 +31,7 @@ void main()
         printf("%d\t%d\t%d\t%d\n", b[i].len, b[i].br, b[i].h, b[i].vol);
         if (b[i].vol > maxvol)
             maxvol = b[i].vol;
+            m=i+1;
     }
-    printf("\nMax. volume = %d", maxvol);
+    printf("\nMax. volume = %d\nWhich is box no. %d", maxvol, m);
 }
