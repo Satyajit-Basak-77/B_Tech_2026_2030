@@ -1,3 +1,5 @@
+//WAP to create a employee structure which consist of employee id., employee name, 
+//their salary as input & calculate DA, TA, HRA, Gross salary, PF, and net salary nad calculate the designation.
 #include<stdio.h>
 struct employee
 {

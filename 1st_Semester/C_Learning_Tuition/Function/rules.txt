@@ -1,0 +1,26 @@
+1.Function first type- no return type no parameter passing 
+
+    Rules-
+    Input process output 
+    তিনতেই function এর মধ্যে হবে
+
+2.Function second type 
+
+    No return type with parameter passing
+
+    Input main এর মধ্যে হবে
+    Process আর output function এর মধ্যে হবে
+
+3.Function third type
+
+    With return type but without parameter passing 
+
+    Input+process function এর মধ্যে হবে
+    Output Main এর মধ্যে হবে
+
+4.Function fourth type
+
+    With both return type and parameters passing 
+
+    Input+output Main এর মধ্যে হবে 
+    Process function এর মধ্যে হবে

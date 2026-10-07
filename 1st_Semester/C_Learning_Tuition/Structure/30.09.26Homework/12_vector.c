@@ -1,3 +1,7 @@
+/*
+12. Define a structure data type called struct vector to hold the 3 components (x. y. z) of a vector. Input the components for 2 such 
+vector type variables v1 and v2 and calculate the cross product of those and display the result. 
+*/
 #include<stdio.h>
 struct vector
 {

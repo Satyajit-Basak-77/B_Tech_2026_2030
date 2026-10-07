@@ -15,4 +15,9 @@
     press 0 the specific user amount to be withdrawn. If the deposited amount less than or equal to 1000 then user can't 
     withdraw the amount.
 9. Sort the student structure in descending order of their marks. 
-10. Sort the employee structure in descending order of their gross salary. 
+10. Sort the employee structure in descending order of their gross salary.
+11. Define a structure called struct line to hold the 2 components (m i.e. slope and c i.e. the y intercept) of a line. Define a structure data type 
+    called struct point to hold the 2 components (x and y) of a point. input the components for 2 line type variables L1 and L2,
+    and find the point of intersection of the lines. Store the point of intersection in a point type data and display the result.
+12. Define a structure data type called struct vector to hold the 3 components (x. y. z) of a vector. Input the components for 2 such 
+vector type variables v1 and v2 and calculate the cross product of those and display the result. 

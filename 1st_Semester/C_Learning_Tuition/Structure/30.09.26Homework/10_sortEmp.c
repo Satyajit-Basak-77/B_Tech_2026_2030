@@ -1,3 +1,4 @@
+//Sort the employee structure in descending order of their gross salary. 
 #include<stdio.h>
 #include<string.h>
 struct employee
