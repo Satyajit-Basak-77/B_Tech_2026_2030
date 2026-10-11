@@ -1,5 +1,4 @@
 //a. x-x+x-x+x-x+x+ ... (0<x<=1)
-
 #include<stdio.h>
 #include<math.h>
 void main()
